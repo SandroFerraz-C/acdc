@@ -1,0 +1,509 @@
+.content-header {
+    color: rgba(87, 60, 2, 0.822);
+    margin: 1rem 0 1rem 1rem;
+}
+
+.content-section_album {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img {
+    width: 99%;
+    height: 100%;
+    margin: .1rem;
+    padding: .1rem;
+}
+
+.content-section_album a {
+    margin: .1rem;
+    height: 275px;
+    width: 275px;
+    border-radius: .8rem;
+}
+
+#hv {
+    background-image: url("../../../img/acdc_australiano.jpg");
+}
+
+#tnt {
+    background-image: url("../../../img/acdc_tnt.jpg");
+}
+
+#hvi {
+    background-image: url("../../../img/acdc/acdc_high_voltage.jpg");
+}
+
+#ddddc {
+    background-image: url("../../../img/ddddc.jpg");
+}
+
+#ltbr {
+    background-image: url("../../../img/acdc_Let_There_Be_Rock.jpg");
+}
+
+#powerage {
+    background-image: url("../../../img/acdc_Powerage.jpg");
+}
+
+#hth {
+    background-image: url("../../../img/acdc_Highway_to_Hell.jpg");
+}
+
+#bib {
+    background-image: url("../../../img/acdc_black_in_black.jpg");
+}
+
+#ftatr {
+    background-image: url("../../../img/acdc_For_Those_About_to_Rock.jpg");
+}
+
+#fots {
+    background-image: url("../../../img/acdc_Flick_of_the_Switch.jpg");
+}
+
+#fotw {
+    background-image: url("../../../img/acdc_Fly_on_the_Wall.jpg");
+}
+
+#wmw {
+    background-image: url("../../../img/acdc_who_made_who.jpg");
+}
+
+#buyv {
+    background-image: url("../../../img/acdc_Blow_Up_Your_Video.jpg");
+}
+
+#tre {
+    background-image: url("../../../img/acdc_The_Razors_Edge.jpg");
+}
+
+#ballbreaker {
+    background-image: url("../../../img/acdc_Ballbreaker.jpg");
+}
+
+#sul {
+    background-image: url("../../../img/acdc_Stiff_Upper_Lip.jpg");
+}
+
+#bi {
+    background-image: url("../../../img/acdc_Black_Ice.jpg");
+}
+
+#rob {
+    background-image: url("../../../img/acdc_Rock_or_Bust.jpg");
+    border-radius: 1rem;
+}
+
+#pu {
+    background-image: url("../../../img/powerup.jpg");
+}
+
+.container {
+    background-color: rgb(235, 227, 227);
+    padding: .1rem;
+}
+
+.fake {
+    background-color: rgba(87, 60, 2, 0.822);
+    margin: 1rem 0 2rem 0;
+    width: 100%;
+    height: 6rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    margin-top: 1rem;
+}
+
+.content-header a {
+    background: rgba(0, 0, 0, .2);
+    padding: .3rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+}
+
+.botao_acdc button {
+    border-top: 1px solid #000000;
+    background: #325d7a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1f282e), to(#325d7a));
+    background: -webkit-linear-gradient(top, #1f282e, #325d7a);
+    background: -moz-linear-gradient(top, #1f282e, #325d7a);
+    background: -ms-linear-gradient(top, #1f282e, #325d7a);
+    background: -o-linear-gradient(top, #1f282e, #325d7a);
+    padding: 8.5px 17px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-size: .6rem;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    margin: .2rem;
+}
+
+.botao_acdc p {
+    font-size: 16px;
+}
+
+.botao_acdc button:hover {
+    border-top-color: #324857;
+    background: #324857;
+    color: #ccc;
+}
+
+.tritono {
+    width: 5rem;
+    height: 2rem;
+}
+
+footer {
+    display: flex;
+    background: rgba(87, 60, 2, 0.822);
+}
+
+footer img {
+    display: inline-block;
+}
+
+.rodape {
+    height: 1rem;
+    color: white;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px black;
+    line-height: 0px;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+#store img {
+    height: 15rem;
+    width: 99%;
+}
+
+.cds div {
+    display: inline-block;
+}
+
+#product {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-family: 'Novo Tegomin', serif;
+    text-align: center;
+}
+
+.marketplace-store {
+    margin-top: 1rem;
+}
+
+#store section {
+    display: inline-block;
+    width: 24%;
+    margin: .1rem;
+}
+
+#store h3 {
+    text-align: center;
+    background-color: rgb(31, 34, 33);
+    color: #fff;
+}
+
+@media screen and (min-width: 247px) and (max-width:374px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 7rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: .3rem;
+    }
+    .botao_acdc button {
+        width: 4rem;
+        height: 2rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+    #store {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #store section {
+        display: inline-block;
+        width: 100%;
+    }
+    #product {
+        margin-top: 3rem;
+    }
+    #store h3 {
+        text-align: center;
+        background-color: rgb(31, 34, 33);
+        color: #fff;
+        font-size: .7rem;
+    }
+    #store img {
+        height: 10rem;
+        width: 99%;
+    }
+    .marketplace-store {
+        margin-top: 1rem;
+    }
+    .albuns_acdc button {
+        font-size: .65rem !important;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:420px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 2rem;
+    }
+    #store {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #store section {
+        display: inline-block;
+        width: 100%;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 7rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: .3rem;
+    }
+    .botao_acdc button {
+        width: 4rem;
+        height: 2rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        margin-top: .5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+    #product {
+        margin-top: 3rem;
+    }
+    #store img {
+        height: 10rem;
+        width: 99%;
+    }
+    .marketplace-store {
+        margin-top: 1rem;
+    }
+    #store h3 {
+        text-align: center;
+        background-color: rgb(31, 34, 33);
+        color: #fff;
+        font-size: .7rem;
+    }
+    .albuns_acdc button {
+        font-size: .65rem !important;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width:767px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 4rem;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 5rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: .3rem;
+    }
+    #store {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #store section {
+        display: inline-block;
+        width: 100%;
+    }
+    #product {
+        display: inline-block;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: 'Novo Tegomin', serif;
+        text-align: center;
+    }
+    .botao_acdc button {
+        width: 4rem;
+        height: 2rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:990px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 3rem;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 5rem;
+        font-size: .2rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .2rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .botao_acdc button {
+        width: 5rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width:1024px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 5rem;
+        font-size: .8rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .botao_acdc button {
+        width: 7rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+    .content-section_album {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .fake {
+        background-color: rgba(87, 60, 2, 0.822);
+        margin: .5rem 0 1rem 0;
+        width: 100%;
+        height: 5rem;
+        font-size: .8rem;
+        text-align: center;
+    }
+    .content-header a {
+        background: rgba(0, 0, 0, .2);
+        padding: .1rem;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        letter-spacing: 0.08rem;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .botao_acdc button {
+        width: 7rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+    }
+    .botao_acdc button:hover {
+        background-color: rgba(87, 60, 2, 0.822);
+    }
+}
